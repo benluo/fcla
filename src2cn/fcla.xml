@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of the book                -->
+<!--                                              -->
+<!--      A First Course in Linear Algebra        -->
+<!--                                              -->
+<!-- Copyright (C) 2004-2017  Robert A. Beezer    -->
+<!-- See the file COPYING for copying conditions. -->
+
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <xi:include href="./bookinfo.xml" />
+
+    <book xml:id="index">
+        <title>第一门线性代数</title>
+        <subtitle>(Beta 版)</subtitle>
+
+        <xi:include href="./frontmatter.xml" />
+        <xi:include href="./chapter-SLE.xml" />
+        <xi:include href="./chapter-V.xml" />
+        <xi:include href="./chapter-M.xml" />
+        <xi:include href="./chapter-VS.xml" />
+        <xi:include href="./chapter-D.xml" />
+        <xi:include href="./chapter-E.xml" />
+        <xi:include href="./chapter-LT.xml" />
+        <xi:include href="./chapter-R.xml" />
+        <xi:include href="./chapter-P.xml" />
+        <xi:include href="./backmatter.xml" />
+    </book>
+
+</mathbook>

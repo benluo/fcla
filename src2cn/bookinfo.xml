@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is part of the book                -->
+<!--                                              -->
+<!--      A First Course in Linear Algebra        -->
+<!--                                              -->
+<!-- Copyright (C) 2004-2017  Robert A. Beezer    -->
+<!-- See the file COPYING for copying conditions. -->
+
+<docinfo  xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <!-- tikz package and libraries for images -->
+    <latex-image-preamble>
+    \usepackage{tikz}
+    \usetikzlibrary{backgrounds}
+    \usetikzlibrary{arrows,matrix}
+    \usetikzlibrary{snakes}
+    </latex-image-preamble>
+
+    <!-- provide links to SVG and PDF versions of diagrams -->
+    <!-- TODO: add PDFs once build is scripted -->
+    <images>
+        <archive>svg</archive>
+    </images>
+
+    <!-- clickable image in upper-left of HTML version -->
+    <brandlogo url="http://linear.pugetsound.edu" source="images/cover-84x120.png" />
+
+    <search>
+        <google>
+            <cx>008832104071767086392:zxs4n7uh_pi</cx>
+        </google>
+    </search>
+
+    <initialism>FCLA</initialism>
+
+    <cross-references text="type-global" />
+
+    <!-- AMS-LaTeX style macros -->
+    <xi:include href="./macros.xml" />
+
+    <!-- Appropriate unused "computation" element for Sage advice vignettes -->
+    <rename element="computation" lang="en-US">Sage</rename>
+    <!-- We only reference list items as "properties" of major theorems/defns -->
+    <rename element="li" lang="en-US">Property</rename>
+
+    <!-- NB: Archetypes and Proof Techniques get named via extra FCLA-specific XSL -->
+
+</docinfo>
